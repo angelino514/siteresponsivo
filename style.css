@@ -1,0 +1,148 @@
+html {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+
+@media ( max-width:1200px ) {
+    
+    html {
+        font-size: 100%;
+    }
+   
+    .header-body {
+        width: 100%;
+        height: 10vh;
+        box-shadow: 0 0 0.2rem black;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        background: white;
+    }
+    
+    .navbar-body ul{
+        display: flex;
+        list-style: none;
+    }
+    
+    .navbar-body ul li a {
+        padding: 15px 30px;
+        font-size: clamp(1rem , 6vw , 1rem);
+        text-decoration: none;
+    }
+    
+    .section-body {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(to left , #E4E2ED , #D5D5F1);
+    }
+    
+    .div-body {
+        width: 100%;
+        text-align: center;
+        height: 300px;
+        padding-top: 10vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .itens-body {
+        width: 100%;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        
+   }
+   
+   .itens-body div {
+       text-align: center;
+       margin: 3rem;
+   }
+   
+   .itens-body p {
+       font-size: 1rem;
+       margin-top: 2rem;
+   }
+    
+    .title  {
+        font-size: clamp( 1.5rem , 6vw , 2.5rem);
+        padding-bottom: 10px;
+    }
+    
+    .text-body {
+        font-size: 1rem;
+        margin: 5px;
+        
+    }
+    
+    .css3d {
+        width: 10rem;
+    }
+    
+    footer {
+        width: 100%;
+        height: 8vh;
+        position: relative;
+        bottom: 0;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background: #42445A ;
+        
+        
+    }
+    
+    footer h2 {
+        color: white;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    html {
+        font-size: 90%;
+    }
+    
+    
+    .css3d {
+        width: 8rem;
+    }
+    
+    
+    .itens-body div {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+   
+}
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
